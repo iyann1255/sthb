@@ -1,0 +1,18 @@
+{
+  "name": "mini-rvo-sticker-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "pair": "node index.js --pairing"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "sharp": "^0.33.5",
+    "file-type": "^19.0.0"
+  }
+}
